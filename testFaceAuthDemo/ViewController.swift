@@ -21,8 +21,8 @@ class ViewController: UIViewController {
 
     @IBAction func btnClick(_ sender: Any) {
         faceAuth = FaceAuthSDK.Builder()
-            .setCredentials(token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2Mjg2YmU5Mzg2NDJmZDAwMDk4NWE1OWUiLCJuYW1lIjoiSm9obiBEb2UiLCJpYXQiOjE1MTYyMzkwMjJ9.muHfkGn9ToDyt9cT_z6vHPNLH0GfDNJJ2WtnnsrqFpU", personId: "12597217604")
-            .setStage(stage: .DEV)
+            .setCredentials(token: "", personId: "")
+            .setStage(stage: .PROD)
             .setFilter(filter: .natural)
             .build()
         
@@ -33,8 +33,8 @@ class ViewController: UIViewController {
     
     @IBAction func btnLivenessClick(_ sender: Any) {
         faceLiveness = FaceLivenessSDK.Build()
-            .setCredentials(mobileToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2Mjg2YmU5Mzg2NDJmZDAwMDk4NWE1OWUiLCJuYW1lIjoiSm9obiBEb2UiLCJpYXQiOjE1MTYyMzkwMjJ9.muHfkGn9ToDyt9cT_z6vHPNLH0GfDNJJ2WtnnsrqFpU", personId: "12597217604")
-            .setStage(stage: .DEV)
+            .setCredentials(mobileToken: "", personId: "")
+            .setStage(stage: .PROD)
             .setFilter(filter: .natural)
             .build()
         faceLiveness?.delegate = self
