@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23AE2D52894D41BE2E625F1B /* Pods_testFaceAuthDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A7F326B207E867A380E699 /* Pods_testFaceAuthDemo.framework */; };
 		E7DEC4032A3C98BB00A1B156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC4022A3C98BB00A1B156 /* AppDelegate.swift */; };
 		E7DEC4052A3C98BB00A1B156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC4042A3C98BB00A1B156 /* SceneDelegate.swift */; };
 		E7DEC4072A3C98BB00A1B156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC4062A3C98BB00A1B156 /* ViewController.swift */; };
 		E7DEC40A2A3C98BB00A1B156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DEC4082A3C98BB00A1B156 /* Main.storyboard */; };
 		E7DEC40C2A3C98BC00A1B156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7DEC40B2A3C98BC00A1B156 /* Assets.xcassets */; };
 		E7DEC40F2A3C98BC00A1B156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DEC40D2A3C98BC00A1B156 /* LaunchScreen.storyboard */; };
+		F335E9A09DB6546A2A56FADF /* Pods_testFaceAuthDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235D620914D65A9282C92362 /* Pods_testFaceAuthDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8977A56CC8B68CF097195E6A /* Pods-testFaceAuthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFaceAuthDemo.release.xcconfig"; path = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.release.xcconfig"; sourceTree = "<group>"; };
-		A2A7F326B207E867A380E699 /* Pods_testFaceAuthDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testFaceAuthDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD7908C3674B5BC55BAC67C8 /* Pods-testFaceAuthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFaceAuthDemo.debug.xcconfig"; path = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		235D620914D65A9282C92362 /* Pods_testFaceAuthDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testFaceAuthDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2A8776AFB7940176E11545 /* Pods-testFaceAuthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFaceAuthDemo.debug.xcconfig"; path = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D1E7D408A67032F6F6F443EF /* Pods-testFaceAuthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFaceAuthDemo.release.xcconfig"; path = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E7DEC3FF2A3C98BB00A1B156 /* testFaceAuthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testFaceAuthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DEC4022A3C98BB00A1B156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7DEC4042A3C98BB00A1B156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23AE2D52894D41BE2E625F1B /* Pods_testFaceAuthDemo.framework in Frameworks */,
+				F335E9A09DB6546A2A56FADF /* Pods_testFaceAuthDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +46,8 @@
 		4C93082F27581D9530DFF8A1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DD7908C3674B5BC55BAC67C8 /* Pods-testFaceAuthDemo.debug.xcconfig */,
-				8977A56CC8B68CF097195E6A /* Pods-testFaceAuthDemo.release.xcconfig */,
+				4E2A8776AFB7940176E11545 /* Pods-testFaceAuthDemo.debug.xcconfig */,
+				D1E7D408A67032F6F6F443EF /* Pods-testFaceAuthDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				E7F27D312A3C9DC500ECBE61 /* FaceAuthenticatorIproov.xcframework */,
-				A2A7F326B207E867A380E699 /* Pods_testFaceAuthDemo.framework */,
+				235D620914D65A9282C92362 /* Pods_testFaceAuthDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,11 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7DEC4132A3C98BC00A1B156 /* Build configuration list for PBXNativeTarget "testFaceAuthDemo" */;
 			buildPhases = (
-				BC0F61C8C597665F5BA21601 /* [CP] Check Pods Manifest.lock */,
+				08FC141F4DF4160EB266B98A /* [CP] Check Pods Manifest.lock */,
 				E7DEC3FB2A3C98BB00A1B156 /* Sources */,
 				E7DEC3FC2A3C98BB00A1B156 /* Frameworks */,
 				E7DEC3FD2A3C98BB00A1B156 /* Resources */,
-				6A10D2A2F3C8D29E6FEF5732 /* [CP] Embed Pods Frameworks */,
+				7BB1D7583A3FEE8700CE6D10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,24 +162,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6A10D2A2F3C8D29E6FEF5732 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC0F61C8C597665F5BA21601 /* [CP] Check Pods Manifest.lock */ = {
+		08FC141F4DF4160EB266B98A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,6 +182,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BB1D7583A3FEE8700CE6D10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -286,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -340,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -352,39 +352,7 @@
 		};
 		E7DEC4142A3C98BC00A1B156 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD7908C3674B5BC55BAC67C8 /* Pods-testFaceAuthDemo.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 67P448578R;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testFaceAuthDemo/Info.plist;
-				INFOPLIST_KEY_NSCalendarsUsageDescription = "Camera Usage";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.combateafraude.cafIproveAppDemo.testFaceAuthDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E7DEC4152A3C98BC00A1B156 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8977A56CC8B68CF097195E6A /* Pods-testFaceAuthDemo.release.xcconfig */;
+			baseConfigurationReference = 4E2A8776AFB7940176E11545 /* Pods-testFaceAuthDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,18 +363,52 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testFaceAuthDemo/Info.plist;
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "Camera Usage";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Usage";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.combateafraude.cafIproveAppDemo.testFaceAuthDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.combateafraude.cafIproveAppDemo.testFaceAuthDemoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7DEC4152A3C98BC00A1B156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E7D408A67032F6F6F443EF /* Pods-testFaceAuthDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GLP488PWA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testFaceAuthDemo/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Camera Usage";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Usage";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.combateafraude.cafIproveAppDemo.testFaceAuthDemoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

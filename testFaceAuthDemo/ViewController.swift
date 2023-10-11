@@ -47,17 +47,55 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: FaceAuthSDKDelegate {
-    func didFinishFaceAuth(with faceAuthenticatorResult: FaceAuthenticatorResult) {
+    func didFinishSuccess(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult) {
         print(faceAuthenticatorResult)
     }
+    
+    func didFinishWithError(with faceAuthenticatorErrorResult: FaceAuthenticator.FaceAuthenticatorErrorResult) {
+        print(faceAuthenticatorErrorResult)
+    }
+    
+    func didFinishWithCancell(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult) {
+        print(faceAuthenticatorResult)
+    }
+    
+    func didFinishWithFail(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorFailResult) {
+        print(faceAuthenticatorResult)
+    }
+    
+    
 }
 
 extension ViewController: FaceLivenessDelegate {
-    func didFinishLiveness(with faceLivenesResult: FaceLivenessResult) {
-        print(faceLivenesResult)
+    func didFinishLiveness(with faceLivenessResult: FaceLiveness.FaceLivenessResult) {
+        print(faceLivenessResult)
     }
     
-    func startLoadingScreen() {
-        print("StartLoadScreen")
+    func didFinishWithFail(with faceLivenessFailResult: FaceLiveness.FaceLivenessFailResult) {
+        print(faceLivenessFailResult)
+    }
+    
+    func didFinishWithCancelled(with faceLivenessResult: FaceLiveness.FaceLivenessResult) {
+        print(faceLivenessResult)
+    }
+    
+    func didFinishWithError(with faceLivenessErrorResult: FaceLiveness.FaceLivenessErrorResult) {
+        print(faceLivenessErrorResult)
+    }
+    
+    func openLoadingScreenStartSDK() {
+        print("open")
+    }
+    
+    func closeLoadingScreenStartSDK() {
+        print("close")
+    }
+    
+    func openLoadingScreenValidation() {
+        print("open")
+    }
+    
+    func closeLoadingScreenValidation() {
+        print("close")
     }
 }
